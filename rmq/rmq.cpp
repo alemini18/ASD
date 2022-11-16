@@ -1,17 +1,19 @@
 #include<bits/stdc++.h>
 #include "rmq.hpp"
+#include "../stars/input.hpp"
+
+using namespace std;
 
 int main(){
-  int n,q;
-  std::cin>>n>>q;
-  int* arr=new int[n];
-  for(int i=0;i<n;i++)std::cin>>arr[i];
-  rmq a(arr,n);
-  for(int i=0;i<q;i++){
-    int l,r;
-    std::cin>>l>>r;
-    std::cout<<arr[a(l,r)]<<" ";
+  vector<int> v,q;
+  cin>>v>>q;
+  int n=v.size();
+  int qq=q.size();
+  for(int i=0;i<n;i++)v[i]=-v[i];
+  rmq a=rmq(v);
+  for(int i=0;i<qq;i+=2){
+    cout<<-v[a(q[i],q[i+1])]<<" ";
   }
-  delete [] arr;
-  return 0;
+
+
 }

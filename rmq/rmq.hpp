@@ -99,6 +99,13 @@
           else rmq_blocks[i][j]=rmq_blocks[i][j-1];
         }
       }
+      rmq(std::vector<int> &a){
+        int n=a.size();
+        int* arr=(int*)malloc(n*sizeof(int));
+        for(int i=0;i<n;i++)arr[i]=a[i];
+        new (this) rmq(arr,n);
+        free(arr);
+      }
       ~rmq(){
         free(trav);
         free(depths);
