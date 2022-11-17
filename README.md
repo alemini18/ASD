@@ -3,6 +3,10 @@ Implementation of some algorithms and data structures encountered during ASD uni
 
 ## Table of Contents
 
+- Sorting
+    - [CountingSort](https://github.com/alemini18/ASD/tree/main/sort/counting.hpp)
+    - [Radix Sort](https://github.com/alemini18/ASD/blob/main/sort/radix.hpp)
+
 - K-th smallest element
     - [Quickselect](https://github.com/alemini18/ASD/tree/main/quickselect)
 
