@@ -36,3 +36,6 @@ in
 
 #Star Problems for exam
 stars/**
+
+#Not included
+rmq/oo/**
