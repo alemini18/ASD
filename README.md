@@ -5,10 +5,10 @@ Implementation of some algorithms and data structures encountered during ASD uni
 
 - Sorting
     - [CountingSort](https://github.com/alemini18/ASD/tree/main/sort/counting.hpp)
-    - [Radix Sor t](https://github.com/alemini18/ASD/blob/main/sort/radix.hpp)
+    - [Radix Sort](https://github.com/alemini18/ASD/blob/main/sort/radix.hpp)
 
 - K-th smallest element
-    - [Quickselect](https://github.com/alemini18/ASD/tree/main/quickselect)
+    - [Quickselect](https://github.com/alemini18/ASD/tree/main/kth_element/quickselect)
     - Median of medians
 
 - RMQ
