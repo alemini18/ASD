@@ -1,5 +1,5 @@
 # ASD
-Implementation of some algorithms and data structures encountered during ASD university course.
+Implementation of some algorithms and data structures come across during ASD university course.
 
 ## Table of Contents
 
