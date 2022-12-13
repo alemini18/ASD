@@ -8,8 +8,11 @@ Implementation of some algorithms and data structures encountered during ASD uni
     - [Radix Sort](https://github.com/alemini18/ASD/blob/main/sort/radix.hpp)
 
 - K-th smallest element
-    - [Quickselect](https://github.com/alemini18/ASD/tree/main/kth_element/quickselect)
-    - Median of medians
+    - [Quickselect](https://github.com/alemini18/ASD/blob/main/kth_element/quickselect.hpp)
+    - [Median of medians](https://github.com/alemini18/ASD/blob/main/kth_element/median.hpp)
+
+- Hash table
+    - [Hash Table with open addressing](https://github.com/alemini18/ASD/blob/main/hash_table/hao.hpp)
 
 - RMQ
     - [O(n) precomputation and O(1) query](https://github.com/alemini18/ASD/tree/main/rmq)
